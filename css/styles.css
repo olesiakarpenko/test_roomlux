@@ -170,6 +170,7 @@ img {
     width: 194px;
     height: 194px;
 
+    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
     background-color: #DADADA;
 }
 
@@ -178,6 +179,12 @@ img {
     justify-content: center;
     align-items: center;
     gap: 32px;
+}
+
+.slider-btn-prev,
+.slider-button-next {
+    display: block;
+    margin: 0;
 }
 
 .slider-btn-icon {
