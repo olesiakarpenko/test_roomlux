@@ -65,7 +65,7 @@ img {
         padding-left: 15px;
         padding-right: 15px;
     
-        overflow: hidden;
+        /* overflow: hidden; */
 
         box-sizing: border-box;
 }
@@ -114,6 +114,16 @@ img {
 
 .hotel-roomlux .container {
     position: relative;
+}
+
+.hotel-room-part-one {
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1028px) {
+    .hotel-room-part-one {
+        margin-bottom: 48px;
+    }
 }
 
 .hotel-about-text-content {
@@ -214,6 +224,14 @@ img {
     .hotel-about-room-description {
         font-size: 16px;
         line-height: calc(19.5/16);
+
+        width: 439px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-about-room-description {
+        width: 400px;
     }
 }
 
@@ -223,7 +241,7 @@ img {
     height: 322px;
 
     margin-left: auto;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 
     box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
     background-color: #DADADA;
@@ -232,8 +250,11 @@ img {
 @media screen and (min-width: 1024px) {
     .hotel-about-room-img {
         position: absolute;
-        top: 32px;
-        left: 112px;
+        top: -32px;
+        right: 112px;
+
+        width: 400px;
+        height: 524px;
     }   
 }
 
