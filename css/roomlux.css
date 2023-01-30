@@ -132,6 +132,15 @@ img {
     margin-bottom: 8px;
 }
 
+@media screen and (min-width: 1024px) {
+    .hotel-logo-slogan {
+        font-size: 32px;
+        line-height: calc(36.8/32);
+
+        margin-bottom: 4px;
+    }
+}
+
 .hotel-about-logo {
     font-family: 'Film P3';
     font-weight: 700;
@@ -141,6 +150,21 @@ img {
     color: #494848;
 
     margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+    .hotel-about-logo {
+        font-size: 64px;
+        line-height: calc(68.84/64);
+
+        margin-bottom: 62px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-about-logo {
+        margin-bottom: 72px;
+    }
 }
 
 .hotel-room-title {
@@ -154,11 +178,29 @@ img {
     margin-bottom: 12px;
 }
 
+@media screen and (min-width: 1024px) {
+    .hotel-room-title {
+        font-size: 30px;
+        line-height: calc(34.5/30);
+
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-room-title {
+        font-size: 36px;
+        line-height: calc(41.4/36);
+
+        margin-bottom: 24px;
+    }
+}
+
 .hotel-about-room-description {
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 12px;
-    line-height: calc(12/14.63);
+    line-height: calc(14.63/12);
     letter-spacing: 0.02em;
     color: #7A7A7A;
 
@@ -166,6 +208,13 @@ img {
     text-align: left;
 
     margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+    .hotel-about-room-description {
+        font-size: 16px;
+        line-height: calc(19.5/16);
+    }
 }
 
 .hotel-about-room-img {
@@ -178,6 +227,14 @@ img {
 
     box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
     background-color: #DADADA;
+}
+
+@media screen and (min-width: 1024px) {
+    .hotel-about-room-img {
+        position: absolute;
+        top: 32px;
+        left: 112px;
+    }   
 }
 
 /* Slider */
