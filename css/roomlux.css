@@ -65,7 +65,7 @@ img {
         padding-left: 15px;
         padding-right: 15px;
     
-        /* overflow: hidden; */
+        overflow: hidden;
 
         box-sizing: border-box;
 }
@@ -89,8 +89,7 @@ img {
 /* Section HOTEL_ROOMLUX styles */
 
 .hotel-roomlux {
-    /* display: flex;
-    flex-direction: column; */
+    position: relative;
 
     padding-top: 32px;
     padding-bottom: 32px;
@@ -112,17 +111,21 @@ img {
     }
 }
 
-.hotel-roomlux .container {
-    position: relative;
-}
 
 .hotel-room-part-one {
     margin-bottom: 32px;
 }
 
+
 @media screen and (min-width: 1028px) {
     .hotel-room-part-one {
-        margin-bottom: 48px;
+        margin-bottom: 176px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-room-part-one {
+        margin-bottom: 188px;
     }
 }
 
