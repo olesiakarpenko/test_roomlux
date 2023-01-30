@@ -69,7 +69,7 @@ img {
     overflow: hidden;
 }
 
-/* Section HOTEL_ROOM 2 ADULT styles */
+/* Section HOTEL_ROOMLUX styles */
 
 .hotel-roomlux {
     display: flex;
@@ -78,7 +78,7 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    background-color: #FFFDEE;
+    background-color: #F0ECD6;
 }
 
 .hotel-roomlux .container {
@@ -88,7 +88,9 @@ img {
 .hotel-about-text-content {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
 }
 
 .hotel-logo-slogan {
@@ -110,6 +112,10 @@ img {
     color: #494848;
 
     margin-bottom: 32px;
+}
+
+.hotel-about-room-detail {
+    margin-left: auto;
 }
 
 .hotel-room-title {
@@ -142,7 +148,7 @@ img {
     width: 244px;
     height: 322px;
 
-    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 32px;
 
     box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
@@ -154,7 +160,7 @@ img {
 .hotel-slider {
     margin-bottom: 20px;
 
-    transform: translateX(-25%);
+    transform: translateX(25%);
 }
 
 .hotel-about-roomlux-slider {
@@ -182,6 +188,12 @@ img {
     justify-content: center;
     align-items: center;
     gap: 32px;
+}
+
+.slider-btn-prev,
+.slider-button-next {
+    cursor: pointer;
+    ;
 }
 
 .slider-btn-icon {

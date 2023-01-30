@@ -56,29 +56,60 @@ img {
 /* reset end */
 
 .container {
-    /* phone screen */
-    min-width: 320px;
-    max-width: 414px;
+        min-width: 320px;
+        max-width: 414px;
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+        padding-left: 15px;
+        padding-right: 15px;
+    
+        overflow: hidden;
 
-    margin-left: auto;
-    margin-right: auto;
+        box-sizing: border-box;
+}
 
-    padding-left: 15px;
-    padding-right: 15px;
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        padding-left: 47px;
+        padding-right: 47px;
+    }
+}
 
-    overflow: hidden;
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
 }
 
 /* Section HOTEL_ROOMLUX styles */
 
 .hotel-roomlux {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 
     padding-top: 32px;
     padding-bottom: 32px;
 
     background-color: #FFFDEE;
+}
+
+@media screen and (min-width: 1024px) {
+    .hotel-roomlux {
+        padding-top: 62px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-roomlux {
+        padding-top: 72px;
+        padding-bottom: 40px;
+    }
 }
 
 .hotel-roomlux .container {
