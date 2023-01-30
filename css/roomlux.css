@@ -184,6 +184,11 @@ img {
     gap: 32px;
 }
 
+.slider-btn-prev,
+.slider-button-next {
+    cursor: pointer;;
+}
+
 .slider-btn-icon {
     width: 32px;
     height: 32px;

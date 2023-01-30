@@ -1,0 +1,234 @@
+/* reset start */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* reset end */
+
+.container {
+    /* phone screen */
+    min-width: 320px;
+    max-width: 414px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    overflow: hidden;
+}
+
+/* Section HOTEL_ROOM 3 ADULT styles */
+
+.hotel-roomlux {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    background-color: #FFFDEE;
+}
+
+.hotel-roomlux .container {
+    position: relative;
+}
+
+.hotel-about-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.hotel-logo-slogan {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(23/20);
+    color: #B4B4B4;
+
+    margin-bottom: 8px;
+}
+
+.hotel-about-logo {
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: calc(43.03/40);
+    letter-spacing: 0.3em;
+    color: #494848;
+
+    margin-bottom: 32px;
+}
+
+.hotel-room-title {
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(27.6/24);
+    letter-spacing: 0.05em;
+    color: #000000;
+
+    margin-bottom: 12px;
+}
+
+.hotel-about-room-description {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(12/14.63);
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+
+    width: 258px;
+    text-align: left;
+
+    margin-bottom: 32px;
+}
+
+.hotel-about-room-img {
+    display: block;
+    width: 244px;
+    height: 322px;
+
+    margin-left: auto;
+    margin-bottom: 32px;
+
+    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
+    background-color: #DADADA;
+}
+
+/* Slider */
+
+.hotel-slider {
+    margin-bottom: 20px;
+
+    transform: translateX(-25%);
+}
+
+.hotel-about-roomlux-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    margin-bottom: 20px;
+
+}
+
+.hotel-about-roomlux-slide {
+    display: block;
+
+    width: 194px;
+    height: 194px;
+
+    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
+    background-color: #DADADA;
+}
+
+.slider-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.slider-btn-icon {
+    width: 32px;
+    height: 32px;
+    fill: #000000;
+}
+
+/* Hotel-about-buttons */
+
+.hotel-about-buttons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hotel-about-link.link,
+.hotel-about-btn {
+    display: block;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(19.5/16);
+    letter-spacing: 0.02em;
+    color: #F3C653;
+    background-color: #000000;
+
+    border: 2x solid #FFFDEE;
+    border-radius: 25px;
+    outline: none;
+
+    width: 236px;
+    height: 48px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    cursor: pointer;
+}
+
+.hotel-about-link {
+    border: 2x solid #FFFDEE;
+}
+
+.hotel-about-btn {
+    border: 2x solid #FFFDEE;
+}
