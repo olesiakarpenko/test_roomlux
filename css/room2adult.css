@@ -90,7 +90,7 @@ img {
     flex-direction: column;
     justify-content: right;
     text-align: right;
-    align-items: right;
+    align-items: flex-end;
 }
 
 .hotel-logo-slogan {
@@ -104,6 +104,7 @@ img {
 }
 
 .hotel-about-logo {
+    display: block;
     font-family: 'Film P3';
     font-weight: 700;
     font-size: 40px;
@@ -112,6 +113,9 @@ img {
     color: #494848;
 
     margin-bottom: 32px;
+
+    text-indent: -0.3em;
+    direction: rtl;
 }
 
 .hotel-about-room-detail {

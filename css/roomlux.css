@@ -107,7 +107,6 @@ img {
 @media screen and (min-width: 1280px) {
     .hotel-roomlux {
         padding-top: 72px;
-        padding-bottom: 40px;
     }
 }
 
@@ -218,6 +217,8 @@ img {
 
     width: 258px;
     text-align: left;
+
+    margin-bottom: 32px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -274,6 +275,7 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
     }
 }
 
@@ -312,12 +314,13 @@ img {
 }
 
 /* Slider imgs & buttons */
+
 @media screen and (min-width: 1024px) {
     .hotel-about-slider-module {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: left;
+        align-items: center;
     }
 }
 
@@ -347,6 +350,13 @@ img {
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1024px) {
+    .slider-control {
+        margin-bottom: 0;
+        margin-left: auto;
+    }
+}
+
 .slider-btn-prev,
 .slider-button-next {
     cursor: pointer;;
@@ -355,7 +365,6 @@ img {
 .slider-btn-icon {
     width: 32px;
     height: 32px;
-    fill: #000000;
 }
 
 /* Hotel-about-buttons */
