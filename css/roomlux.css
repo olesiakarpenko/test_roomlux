@@ -111,7 +111,6 @@ img {
     }
 }
 
-
 .hotel-room-part-one {
     margin-bottom: 32px;
 }
@@ -219,8 +218,6 @@ img {
 
     width: 258px;
     text-align: left;
-
-    margin-bottom: 32px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -261,25 +258,70 @@ img {
     }   
 }
 
+@media screen and (min-width: 1280px) {
+    .hotel-about-room-img {
+        position: absolute;
+        top: -33px;
+        right: 180px;
+
+        width: 460px;
+        height: 574px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hotel-room-part-two {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
 /* Slider */
-
-.hotel-slider {
-    margin-bottom: 20px;
-
+.hotel-about-slider {
     transform: translateX(-25%);
 }
 
-.hotel-about-roomlux-slider {
+@media screen and (min-width: 1024px) {
+    .hotel-about-slider {
+        transform: translateX(0);
+    }
+}
+
+.hotel-about-room-slider {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
 
     margin-bottom: 20px;
-
 }
 
-.hotel-about-roomlux-slide {
+@media screen and (min-width: 1024px) {
+    .hotel-about-room-slider {
+        gap: 40px;
+
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hotel-about-room-slider {
+        margin-bottom: 40px;
+    }
+}
+
+/* Slider imgs & buttons */
+@media screen and (min-width: 1024px) {
+    .hotel-about-slider-module {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+}
+
+.hotel-about-room-slide {
     display: block;
 
     width: 194px;
@@ -289,11 +331,20 @@ img {
     background-color: #DADADA;
 }
 
+@media screen and (min-width: 1280px) {
+    .hotel-about-room-slide {
+        width: 254px;
+        height: 254px;
+    }
+}
+
 .slider-control {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
+
+    margin-bottom: 20px;
 }
 
 .slider-btn-prev,
@@ -309,6 +360,12 @@ img {
 
 /* Hotel-about-buttons */
 
+@media screen and (min-width: 1024px) {
+    .hotel-about-buttons {
+        margin-left: auto;
+    }
+}
+
 .hotel-about-buttons-list {
     display: flex;
     flex-direction: column;
@@ -316,6 +373,12 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .hotel-about-buttons-list {
+        gap: 30px;
+    }
 }
 
 .hotel-about-link.link,
