@@ -217,10 +217,15 @@ img {
     text-align: center;
 }
 
+.hotel-about-link {
+    display: block;
+}
+
+.hotel-about-btn {
+    display: inline-block;
+}
 .hotel-about-link.link,
 .hotel-about-btn {
-    display: block;
-
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 16px;
@@ -241,10 +246,10 @@ img {
     cursor: pointer;
 }
 
-.hotel-about-link {
-    border: 2x solid #FFFDEE;
-}
-
-.hotel-about-btn {
-    border: 2x solid #FFFDEE;
+.hotel-about-link:hover,
+.hotel-about-link:focus,
+.hotel-about-btn:hover {
+    color: #F3C653;
+    background-color: #FFFFFF;
+    border: 2px solid #F3C653;
 }
